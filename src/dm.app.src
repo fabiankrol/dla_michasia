@@ -1,0 +1,13 @@
+%%% -*- mode: erlang -*-
+{application, dm,
+    [{description,  ""},
+        {vsn, "0.0.0"},
+        {modules, []},
+        {registered, [] },
+        {env, []},
+        {applications, [
+                cowboy,
+                riakc_poolboy
+            ]},
+        {mod, {dm_app, []}}
+    ]}.
